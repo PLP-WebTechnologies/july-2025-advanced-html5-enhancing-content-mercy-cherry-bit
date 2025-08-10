@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> WEEK 2
+</title>
+</head>
+<body>
+<h1>Enhanced html elements</h1>
+<!--lists-->
+<h2>Definition list</h2>
+<dl>
+<dt>USA</dt>
+<dd>United Stated of America</dd>
+<dt>UAE</dt>
+<dd>United Arab Emirates</dd>
+</dl>
+<h2>Nested lists</h2>
+<ul>
+<li>Fruits
+<ol type="i">
+<li>Apples</li>
+<li>Bananas</li>
+</ol>
+</li>
+<li>Vegetables
+<ol type="i">
+<li>Carrots</li>
+<li>Spinach</li>
+</ol>
+</li>
+</ul>
+<!-- Media-->
+<h2>Media</h2>
+<h3>Images</h3>
+<img src="camera.jpg" alt="Image of a camera" width="500" height="350">
+<h3>Audio</h3>
+<audio controls>
+<source src="song.mp3" type="audio/mpeg">
+Your browser does not support audio playback.
+</audio>
+<h3>Video</h3>
+<video width="250" controls>
+<source src="video.mp4" type="video/mp4">
+</video>
+<!--Table-->
+<h2>Schedule</h2>
+<table border="1">
+<tr>
+<th>Days</th>
+<th>Activity</th>
+</tr>
+<tr>
+<td>Monday</td>
+<td>Working</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>Cafe date</td>
+</tr>
+</table>
+<!--Form-->
+<h2>Registration form</h2>
+<h2>Forms</h2>
+<form action="https://example.com/submit" method="post">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required readonly>
+<br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required autocomplete="email">
+<br><br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" placeholder="Enter password" required>
+<br><br>
+<label for="male">Gender:
+<input type="radio" id="Male"  name="gender" value="Male"required>Male
+<label for="female">
+<input type="radio" id="Female"  name="gender" value="Female"required>Female
+</label>
+<br><br>
+<label for="country">Country:</label>
+<br><br>
+<select id="country" name="country"required>
+<option value="usa">Sudan</option>
+<option value="uae">Kenya</option>
+<option value="russia">Burundi</option>
+</select>
+<br><br>
+<label for="comments">Comments:</label>
+<textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+<br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
